@@ -1,14 +1,15 @@
 :root {
     --primary-color: #F1BE6C;
     --secondary-color: #6C9FF1;
-    --third-color: #6CF1BE;
+    --third-color: #A2937A;
     --fourth-color: #F16C9F;
 }
 
 * {
     margin: 0;
     padding: 0;
-  }
+    box-sizing: border-box;
+}
 
 body {
     color: var(--primary-color);
@@ -31,7 +32,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--fourth-color);
+    color: var(--third-color);
 }
 
 header nav {
@@ -49,3 +50,27 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: var(--third-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: var(--third-color);
+}
+
