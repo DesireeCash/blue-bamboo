@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #F1BE6C;
+    --secondary-color: #6C9FF1;
+    --third-color: #6CF1BE;
+    --fourth-color: #F16C9F;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+  }
