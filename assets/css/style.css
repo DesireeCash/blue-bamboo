@@ -1,7 +1,7 @@
 :root {
     --primary-color: #F1BE6C;
-    --secondary-color: #6C9FF1;
-    --third-color: #A2937A;
+    --secondary-color: #FCF2E2;
+    --third-color: #978C7C;
     --fourth-color: #F16C9F;
 }
 
@@ -12,7 +12,7 @@
 }
 
 body {
-    color: var(--primary-color);
+    color: var(--third-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -74,3 +74,12 @@ footer a {
     color: var(--third-color);
 }
 
+.hero-banner {
+    height: 800px;
+    width: auto;
+    background-image: url(/assets/images/lake-and-trees.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero
